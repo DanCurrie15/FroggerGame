@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'>
+    <title>Effective JavaScript: Frogger</title>
+    <meta name='description' content=''>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+  <div class='container'>
+    <header>
+      <h1>'Frogger' Game</h1>
+    </header>
+    <section class='score-panel'>
+      <span class='score'>0</span> Score
+    </section>
+    <div class='game-over-panel'>
+      <h2>Game Over :(</h2>
+      <p class='game-over-panel-score'>Score: 0</p>
+      <button class='button'>Play Again?</button>
+    </div>
+    <div class='start-game-panel'>
+      <h2 class='title'>Select Character</h2>
+      <button class='button-left'><</button>
+      <img id='character-image' src='images/charBoy.png' alt='character' >
+      <button class='button-right'>></button>
+      <button class='button-start'>Start</button>
+    </div>
+  </div>
+    <script src='js/resources.js'></script>
+    <script src='js/app.js'></script>
+    <script src='js/engine.js'></script>
+</body>
+</html>
